@@ -1,6 +1,8 @@
-# Rails Startup template
+# Launch Academy Rails Template
 
-This is a template I use for my new Ruby on Rails 4 applications as a student . **Pull requests are welcome.**
+This is a template I use for my new Ruby on Rails 4 applications as a student at Launch Academy. **Pull requests are welcome.**
+
+INSPIRED BY @dennybritz and @dpickett
 
 ## How to Use
 
@@ -10,7 +12,7 @@ rails new [app_name] -m https://raw.github.com/justuseapen/launch_rails_new/mast
 
 ## What it does
 
-1. Sets you up with a postgres database.yml
+1. Sets you up with a postgres database.yml (DON'T FORGET TO EDIT WITH YOUR PROJECT NAME!)
 
 2. Sets you up with the postgres gem
 
