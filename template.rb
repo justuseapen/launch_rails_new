@@ -81,6 +81,7 @@ gem_group :development, :test do
   gem 'shoulda-matchers'
   gem 'valid_attribute'
   gem 'capybara'
+  gem 'quiet_assets'
 end
 
 
