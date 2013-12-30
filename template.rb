@@ -103,6 +103,10 @@ doc/
 .DS_Store
 EOF"
 
+#remove minitest
+#===================================================
+run 'rm -rf ./test'
+
 #rspec install
 #===================================================
 run 'rails generate rspec:install'
