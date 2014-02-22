@@ -8,16 +8,14 @@ development:
   encoding: utf8
   database: YOURPROJECTNAME_development
   pool: 5
-  username: 
-  password:
+  host: localhost
 
 test:
   adapter: postgresql
   encoding: utf8
   database: YOURPROJECTNAME_test
   pool: 5
-  username: 
-  password:
+  host: localhost
 
 production:
   adapter: postgresql
@@ -39,9 +37,9 @@ run 'touch Gemfile'
 add_source "http://rubygems.org"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.2'
+gem 'rails', github: 'rails/rails', branch: "4-1-stable"
 
-# Use sqlite3 as the database for Active Record
+# Use Postgresql as the database for Active Record
 gem 'pg'
 
 # Use SCSS for stylesheets
