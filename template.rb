@@ -37,7 +37,7 @@ run 'touch Gemfile'
 add_source "http://rubygems.org"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', github: 'rails/rails', branch: "4-1-stable"
+gem 'rails', '4.0.2'
 
 # Use Postgresql as the database for Active Record
 gem 'pg'
